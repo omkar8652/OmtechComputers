@@ -1,0 +1,139 @@
+
+@media  only screen and (max-width: 899px){
+
+    
+
+    #top
+    {
+        
+        width: 100%;
+    }
+
+    #bottom{
+        width: 100%;
+        
+    }
+
+    .about-main{
+        width: 84%;
+    }
+
+    #bottom-right
+    {
+        
+        width: 100%;    
+        
+       
+    }
+}
+
+@media  only screen and (max-width: 710px){
+
+    #bottom{
+        flex-direction: column-reverse;
+    }
+
+    .contact-main {
+        width: 75%;
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-content: center; */
+    }
+
+    .contact-right iframe {
+       
+        width: 101%;
+        height: 151%;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .about-logo {
+        width: 86%;
+       
+    }
+}
+
+@media  only screen and (max-width: 418px){
+
+    .wlc h1 {
+        font-weight: 200;
+        font-size: 7vw;
+        font-family: 'Alegreya SC',serif;
+    }
+    .site-logo{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .ast-site-title-wrap{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .site-title{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0px;
+        font-size: 22px;
+    }
+
+    .site-description{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex: auto;
+        font-size: small;
+    }
+
+    .main_line h3 {
+       
+        font-size: 9vw;
+      
+    }
+
+    .line p{
+        color: red;
+        opacity: 3.1;
+        font-size: 5vw;
+    }
+
+    footer{
+        font-size: smaller;
+    }
+}
+
+@media  only screen and (max-width: 395px){
+
+    
+
+    .site-description{
+       
+        font-size: 12.5px;
+    }
+
+   
+}
+
+@media  only screen and (max-width: 360px){
+
+    
+
+    .site-description{
+       
+        font-size: 10.4px;
+    }
+
+    .site-title{
+        font-size: 18px;
+        /* padding: 4px; */
+        margin-left: 72px;
+    }
+   
+}

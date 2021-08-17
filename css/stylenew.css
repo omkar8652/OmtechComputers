@@ -1,0 +1,424 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html {
+	scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Ubuntu:wght@300&display=swap');
+.navbar
+    {
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+    
+    .site-logo{
+        padding-right: 1em;
+        max-width: 59px;
+    }
+    .site-title
+    {
+        max-width: 100%;
+        font-size: 100%;
+        font-weight: 400;
+        font-size: 30px;
+        display: block;
+        padding: 0 auto;
+        padding-left: 82px;
+        margin: 0px auto;
+        margin-bottom: 0 auto;
+        margin-top: -63px;
+        font-family: 'Alegreya SC',serif;
+        text-decoration: none;
+    }
+    .site-description
+    {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 15px;
+        margin-left: 80px;
+        color: red;
+        font-family: 'Alegreya SC',serif;
+    }
+    .ast-site-title-wrap{
+        width: 100%;
+    }
+    .tag
+    {
+        width: 100px;
+        font-size: 100%;
+        color: black;
+        text-decoration: none;
+        
+    }
+
+    .font
+    {
+        font-family: 'IM Fell Double Pica SC', serif;
+    }
+    .banner
+    {
+        min-width: 100%;    
+        position: relative;
+        background-image: url(../img/backk.jpg);
+        min-height: 92vh;   
+        background-size: cover;
+        background-position: center;
+        padding: 250px 0 200px;
+        background-attachment: fixed;
+    }
+    .elementor-background-overlay
+    {
+        background-color: #504992;
+        opacity: 0.8;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    
+    .wlc
+    {
+        color: white;
+        
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: right;
+        margin-top: 140px;
+    }
+    .wlc h1
+    {
+        
+        font-weight: 200;
+        font-size: 5vw;
+        font-family: 'Alegreya SC',serif;
+    }
+    .main_line
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .main_line h3
+    {
+        font-weight: 100;
+        font-size: 6vw;
+        font-family: 'Alegreya SC',serif;
+        color: #ffffff;
+    }
+    .line
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .line p
+    {
+        font-weight: 400;
+        font-size: 3vw;
+        color: rgba(255, 6, 6, 0.753);
+        font-family: 'Poppins', sans-serif;
+    }
+    .call
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .call .call-btn
+    {
+        background-color: #22B3A4;
+        height: 45.2px;
+        width: 219.137px;
+        border: 0px solid  #22B3A4;
+        padding: 15px 50px 15px 50px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        line-height: 15px;
+        text-decoration: none solid rgb(255, 255, 255);
+        text-align: center;
+        text-transform: uppercase;
+        word-spacing: 0px;
+        display: inline-block;
+        cursor: pointer;
+        transform: none;
+        transition: all 0.3s ease 0s;
+        outline: rgb(255, 255, 255) dashed 0px;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius :50px;
+        color: #ffffff;
+    }
+    .call-btn:hover
+    {
+        background-color: #504992;
+    }
+    .section {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    #top
+    {
+            margin-top: 20vh;
+            margin-right: auto;
+            margin-left: auto;
+            width: 70%;
+    }
+    #top-left
+    {
+        background-image: url(../img/hardware.jpg);
+        min-height: 50vh;   
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .top-right
+    {
+        background-color: #F5F5F5;
+    }
+    #fa
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 16px 0px;
+       
+    }
+    .top-heading
+    {
+        font-family: serif;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .top-itmes
+    {
+       
+        display: flex;
+        justify-content: center;
+
+    }
+    .top-itmes ul
+    {
+       font-family: serif;
+       font-weight: 100;
+       font-size: 20px;
+    }
+    #bottom
+    {
+        margin-right: auto;
+        margin-left: auto;
+
+        width: 70%;
+    }
+    #bottom-left
+    {
+        background-color: #F5F5F5;
+    }
+    .bottom-heading
+    {
+        font-family: serif;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .bottom-itmes
+    {
+       
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .bottom-itmes ul
+    {
+       font-family: serif;
+       font-weight: 100;
+       font-size: 20px;
+    }
+    #bottom-right
+    {
+        
+        width: 74.5vh;    
+        position: relative;
+        background-image: url(../img/laptop.jpg);
+        min-height: 50vh;   
+        background-size: cover;
+        background-position: center;
+       
+    }
+    
+    .about-main
+    {
+        margin-top: 15vh;
+        margin-right: auto;
+        margin-left: auto;
+        width: 71%
+    }
+    
+    .about-info
+    {
+        width: 80vh;
+        
+    }
+    .about-head
+    {
+        font-family: serif;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    .about-as
+    {
+        margin-top: 13px;
+        word-spacing: 2px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: justify;
+    }
+    .about-logo
+    {
+        width: 50%;
+        background-image: url(../img/logo.jpg);
+        min-height: 50vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .contact-wapper
+    {
+        margin-top: 34px;
+        position: relative;
+        background-image: url(../img/backk.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 60px 0 150px;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .contact-bg
+    {
+        background-color: #504992;
+        opacity: 0.8;    
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    
+    .contact-main
+    {
+            width: 80%;
+       
+    }
+
+ 
+    
+    .contact-time
+    {
+        background-color: #8686B7;
+        opacity: 0.8;
+        width: 100%;
+        padding: 2px 17px;
+        
+    }
+    
+    .contact-time-head
+    {
+        font-family: serif;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0px 4px;
+        text-align: center;
+        flex-direction: column;
+       
+    }
+   
+
+    .contact-time-info
+    {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+        
+    }
+    .contact-add
+    {
+        background-color: #8686B7;
+        opacity: 0.8;
+        width: 100%;
+        padding: 2px 17px;
+        margin-top: 10px;
+    }
+    
+    .contact-add-head
+    {
+        font-family: serif;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding: 0px 4px;
+        text-align: center;
+    }
+   
+    .contact-add-info
+    {
+        
+
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+       
+        flex-wrap: wrap;
+        
+    }
+  
+    .contact-right iframe
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+    
+    }
+
